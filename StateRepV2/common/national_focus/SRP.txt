@@ -1,0 +1,132 @@
+focus_tree = {
+	id = srp
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SRP
+		}
+	}
+	#Formation Of The Colony
+	focus = {
+		id = SRP_formation_of_the_colony
+		icon = GFX_focus_AST_never_gallipoli
+		x = 5
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 120
+			
+			
+		}
+	}
+
+	#Form The Millitary
+	focus = {
+		id = SRP_form_the_millitary
+		icon = GFX_focus_eng_special_air_service
+		x = 5
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SRP_formation_of_the_colony  }
+		completion_reward = {
+			
+			army_experience = 100
+			
+			
+			add_war_support = 0.5
+			
+			
+		}
+	}
+
+	#Form the Cabinet
+	focus = {
+		id = SRP_form_the_cabinet
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SRP_formation_of_the_colony  }
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Form the Cabinet
+	focus = {
+		id = SRP_form_the_cabinet
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SRP_formation_of_the_colony  }
+		completion_reward = {
+
+			
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Formation of the AirForce
+	focus = {
+		id = SRP_formation_of_the_airforce
+		icon = GFX_goal_generic_air_fighter2
+		x = 7
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SRP_formation_of_the_colony  }
+		completion_reward = {
+			air_experience = 100
+			
+			
+		}
+	}
+
+	#Form the Navy
+	focus = {
+		id = SRP_form_the_navy
+		icon = GFX_SRP_form_the_navy-404
+		x = 9
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SRP_formation_of_the_colony  }
+	}
+
+	#Election For The Vice President
+	focus = {
+		id = SRP_election_for_the_vice_president
+		icon = GFX_focus_eng_special_air_service
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SRP_form_the_cabinet  }
+	}
+
+}

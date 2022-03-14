@@ -1,0 +1,49 @@
+characters = {	alan_baker = {
+		name = alan_baker
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/UHJITdaR-1158.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = alan_baker
+			allowed = {
+				original_tag = SRP
+			}
+			traits = { headstrong humble chamberlain_appeaser great_architect appeaser}
+		}
+	}
+	dr_darked = {
+		name = dr_dark
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/qBagZWvR-1045.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = dr_darked
+			allowed = {
+				original_tag = SRP
+			}
+			traits = { supreme_representative_of_god_on_earth backroom_backstabber socialite_connections permanent_revolutionary}
+		}
+	}
+	prolonged_games9 = {
+		name = prolonged_games9
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/yhqGXrtJ-1046.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = prolonged_games9
+			allowed = {
+				original_tag = SRP
+			}
+			traits = { warmonger mobile_warfare_expert guerilla_warfare_expert }
+		}
+	}
+}

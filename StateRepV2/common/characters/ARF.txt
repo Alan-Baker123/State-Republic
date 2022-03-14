@@ -1,0 +1,65 @@
+characters = {
+#Create country leader - The Ender Dragon
+the_ender_dragon = {
+	name = the_ender_dragon
+	portraits = {
+		civilian = {
+			#Custom image for The Ender Dragon
+			large = "/gfx/leaders/ARF/lZuwVjMH-172079.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = moderatism
+		traits = {  popular_queen assassination_survivor legitimate_heir collaborator_king warrior_code }
+	}
+}
+
+#Create country leader - Commander James Coordinate 
+commander_james_coordinate_ = {
+	name = commander_james_coordinate_
+	portraits = {
+		civilian = {
+			#Custom image for Commander James Coordinate 
+			large = "/gfx/leaders/ARF/BikNtGLz-9400.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {  great_architect union_man railroad_enthusiast exiled_revolutionary }
+	}
+}
+
+#Create country leader - General Molotov
+general_molotov = {
+	name = general_molotov
+	portraits = {
+		civilian = {
+			#Custom image for General Molotov
+			large = "/gfx/leaders/ARF/hUOGdzyv-9400.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {  dictator warmonger }
+	}
+}
+
+#Create country leader - Dr James Wright
+dr_james_wright = {
+	name = dr_james_wright
+	portraits = {
+		civilian = {
+			#Custom image for Dr James Wright
+			large = "/gfx/leaders/ARF/ICkDhGYi-9400.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {  humble chamberlain_appeaser great_architect liberal_democratic_paragon democratic_reformer }
+	}
+}
+}
