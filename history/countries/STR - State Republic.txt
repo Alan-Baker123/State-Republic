@@ -1,0 +1,38 @@
+﻿oob = "STR_1163"
+capital = 6
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+recruit_character = STR_manat
+recruit_character = STR_drdark
+recruit_character = STR_alan
+recruit_character = STR_squares
+recruit_character = STR_petra
+recruit_character = STR_taxevasion
+
+#Politics for 1163.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1162.9.8"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 95
+	fascism = 0
+	communism = 5
+	neutrality = 0
+}
+
+

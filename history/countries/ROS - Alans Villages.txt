@@ -1,0 +1,29 @@
+﻿oob = "ROS_1163"
+capital = 5
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}
+
+recruit_character = ROS_alan
+
+#Politics for 1163.1.1
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 90
+	fascism = 0
+	communism = 0
+	neutrality = 10
+}
