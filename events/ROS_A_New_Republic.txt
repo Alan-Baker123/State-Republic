@@ -1,0 +1,29 @@
+add_namespace = new_republic
+
+country_event = {
+	id = new_republic.1
+	title = new_republic.1.t
+	desc = new_republic.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = new_republic.1.a
+		STR = {
+			every_owned_state = {
+				add_core_of = ROOT
+			}
+			}
+		annex_country = {target = STR}
+		OSR = {
+			every_owned_state = {
+				add_core_of = ROOT
+			}
+			}
+		annex_country = {target = OSR}
+		
+		set_cosmetic_tag = ROS_NEW
+		set_capital = {state = 361}
+		}
+	}
+

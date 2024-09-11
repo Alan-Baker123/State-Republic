@@ -1,0 +1,17 @@
+add_namespace = new_power
+
+country_event = {
+	id = new_power.1
+	title = new_power.1.t
+	desc = new_power.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = new_power.1.a
+		create_faction = "Defenders of the State"
+		STR = { add_to_faction = OSR }
+		}
+	}
+	
+	

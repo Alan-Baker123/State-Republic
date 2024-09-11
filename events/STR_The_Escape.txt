@@ -1,0 +1,19 @@
+add_namespace = the_escape
+
+country_event = {
+	id = the_escape.1
+	title = the_escape.1.t
+	desc = the_escape.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = the_escape.1.a
+		remove_ideas = STR_wrongful_imprisonment
+		add_ideas = STR_manat_betrayed
+		add_popularity = {
+		ideology = fascism
+			popularity = 0.3
+		}
+	}
+}

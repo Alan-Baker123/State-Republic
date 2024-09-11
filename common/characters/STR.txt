@@ -1,0 +1,105 @@
+characters = {	
+	STR_manat={
+		name=STR_manat
+		portraits = {
+            civilian = {
+                large = "GFX_STR_Manat"
+            }
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1200.1.1"
+			id=-1
+			traits = {
+				champion_of_peace_1 headstrong national_integralist
+			}
+		}
+	}
+	
+	STR_drdark={
+		name=STR_drdark
+		portraits = {
+            civilian = {
+                large = "GFX_STR_DrDark"
+            }
+		}
+		country_leader={
+			ideology=anarchist_communism
+			expire="1200.1.1"
+			id=-1
+			traits = {
+				communist_revolutionary captain_of_industry
+			}
+		}
+	}
+	
+	STR_squares={
+		name=STR_squares
+			portraits = {
+				civilian = {
+					large = "GFX_STR_Squares"
+				}
+			}
+		country_leader={
+			ideology=gen_nazism
+			expire="1200.1.1"
+			id=-1
+			traits = {
+				den_fascist_populist dictator allergic_to_water
+			}
+		}
+	}
+	
+	STR_alan= {
+		name=STR_alan
+		portraits = {
+			civilian = {
+				large = "GFX_STR_Alan"
+				}
+			}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1200.1.1"
+			id=-1
+			traits = {
+				ice_national_romanticis editor
+			}
+		}
+	}
+	
+	STR_petra={
+		name=STR_petra
+		portraits = {
+			civilian = {
+				large = "GFX_STR_Petra"
+				}
+			}
+		country_leader={
+			ideology=socialism
+			expire="1200.1.1"
+			id=-1
+			traits = {
+				emergency_powers strict_austerity_adherent
+			}
+		}
+	}
+	
+	STR_taxevasion={
+		name=STR_taxevasion
+			portraits = {
+				civilian = {
+					large = "GFX_STR_TaxEvasion"
+				}
+			}
+		country_leader={
+			ideology=anarchism
+			expire = "1200.1.1"
+			id=-1
+			traits = {
+				swe_fallen_riksdag_trait
+			}
+		}
+	}
+
+	
+}

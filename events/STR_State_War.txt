@@ -1,0 +1,17 @@
+add_namespace = state_war
+
+country_event = {
+	id = state_war.1
+	title = state_war.1.t
+	desc = state_war.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = state_war.1.a
+		declare_war_on = {
+			target = ROS
+			type = take_core_state
+		}
+	}
+}

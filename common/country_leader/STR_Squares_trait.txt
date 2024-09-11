@@ -1,0 +1,14 @@
+leader_traits = {
+	allergic_to_water = {
+		random = no
+		sprite = 1
+		experience_gain_navy = -1
+		
+		ai_will_do = {
+			base = 2
+		}
+		command_cap @tier1
+	}
+}
+
+	

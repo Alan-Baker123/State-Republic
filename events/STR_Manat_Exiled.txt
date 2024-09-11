@@ -1,0 +1,16 @@
+add_namespace = manat_exiled
+
+country_event = {
+	id = manat_exiled.1
+	title = manat_exiled.1.t
+	desc = manat_exiled.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = manat_exiled.1.a
+		retire_country_leader
+		promote_character = STR_petra
+		add_ideas = STR_hated_leader
+	}
+}

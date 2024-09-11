@@ -1,0 +1,4 @@
+STR = "countries/State Republic.txt"
+ARF = "countries/Arctik Research Foundation.txt"
+OSR = "countries/The Shattered Republic.txt"
+ROS = "countries/Alans Villages.txt"

@@ -1,0 +1,26 @@
+add_namespace = communist_revolt
+country_event = {
+	id = communist_revolt.1
+	title = communist_revolt.1.t
+	desc = communist_revolt.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = communist_revolt.1.a
+		set_cosmetic_tag = STR_COMMUNE
+		remove_ideas = STR_hated_leader
+		remove_ideas = STR_nation_outraged
+		add_ideas = STR_anarchic_socity
+		add_popularity = {
+			ideology = communism
+			popularity = 1
+		}
+		promote_character = STR_drdark
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+
+	}
+}

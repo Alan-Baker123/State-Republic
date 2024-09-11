@@ -1,0 +1,34 @@
+add_namespace = breakup_commune
+
+country_event = {
+	id = breakup_commune.1
+	title = breakup_commune.1.t
+	desc = breakup_commune.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = breakup_commune.1.a
+		release = ROS
+		release = OSR
+		drop_cosmetic_tag
+		set_political_party = {
+			ideology = communism
+			popularity = 5
+		}
+		set_political_party = {
+			ideology = fascism
+			popularity = 5
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.9
+		}
+			
+		
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			}
+	}
+}

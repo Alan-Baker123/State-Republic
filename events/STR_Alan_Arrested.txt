@@ -1,0 +1,14 @@
+add_namespace = alan_arrested
+country_event = {
+	id  = alan_arrested.1
+	title = alan_arrested.1.t
+	desc = alan_arrested.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alan_arrested.1.a
+		
+		add_ideas = STR_wrongful_imprisonment
+	}
+}

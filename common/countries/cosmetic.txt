@@ -1,0 +1,14 @@
+STR_ORDER = {
+	color = rgb {12 13 13}
+	color_ui = rgb {12 13 13}
+}
+
+ROS_NEW = {
+	color = rgb { 51 92 255}
+	color_ui = rgb {51 92 255}
+}
+
+STR_COMMUNE = {
+	color = rgb { 235 52 52 }
+	color_ui = rgb { 235 52 52 }
+}

@@ -1,0 +1,18 @@
+bookmarks = {
+	bookmark = {
+		name = "HownyPogs"
+		desc = "default_desc"
+		date = 1163.1.1.12
+	picture = "default-1"
+		default_country = "STR"
+		default = yes
+		"STR" = {
+			history = "default_STR"
+			ideology = democratic
+		}
+		"ARF" = {
+			history = "default_ARF"
+			ideology = democratic
+		}
+	}
+}

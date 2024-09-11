@@ -1,0 +1,18 @@
+characters = {
+	ROS_alan= {
+		name=ROS_alan
+		portraits = {
+			civilian = {
+				large = "GFX_STR_Alan"
+				}
+			}
+		country_leader={
+			ideology=conservatism
+			expire="1200.1.1"
+			id=-1
+			traits = {
+				great_survivor man_of_the_nation
+			}
+		}
+	}
+}

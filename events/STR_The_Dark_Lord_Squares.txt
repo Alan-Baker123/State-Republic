@@ -1,0 +1,39 @@
+add_namespace = dark_lord
+
+country_event = {
+	id = dark_lord.1
+	title = dark_lord.1.t
+	desc = dark_lord.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dark_lord.1.a
+		promote_character = STR_squares
+		remove_ideas = STR_old_face
+		remove_ideas = STR_anarchic_socity
+		add_ideas = STR_dark_lord
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+			long_name = STR_ORDER_party_long_name
+			name = STR_ORDER_party_name
+		}
+		set_political_party = {
+			ideology = fascism
+			popularity = 100
+		}
+		set_cosmetic_tag = STR_ORDER
+		
+		ROS = {
+			every_owned_state = {
+				add_core_of = ROOT
+			}
+		}
+		OSR = {
+			every_owned_state = {
+				add_core_of = ROOT
+			}
+		}
+	}
+}

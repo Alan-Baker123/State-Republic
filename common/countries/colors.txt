@@ -1,0 +1,19 @@
+
+#Custom colours start here
+STR = {
+	color = rgb { 51 92 255 }
+	color_ui = rgb { 51 92 255 }
+}
+ARF = {
+	color = rgb { 194 247 255 }
+	color_ui = rgb { 194 247 255 }
+}
+OSR = {
+	color = rgb { 3 148 88 }
+	color_ui = rgb { 3 148 88 }
+}
+
+ROS = {
+	color = { 3 56 148 }
+	color_ui = { 3 56 148 }
+}

@@ -1,0 +1,23 @@
+add_namespace = hexeria_defeated
+country_event = {
+	id = hexeria_defeated.1
+	title = hexeria_defeated.1.t
+	desc = hexeria_defeated.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hexeria_defeated.1.a
+		remove_ideas = STR_bro_v_bro
+		remove_ideas = STR_manat_betrayed
+		add_ideas = STR_nation_outraged
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.3
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.2
+		}
+	}
+}

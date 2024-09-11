@@ -1,0 +1,14 @@
+add_namespace = old_face
+
+country_event = {
+	id = old_face.1
+	title = old_face.1.t
+	desc = old_face.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = old_face.1.a
+		add_ideas = STR_old_face
+		}
+	}

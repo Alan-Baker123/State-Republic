@@ -1,0 +1,24 @@
+add_namespace = civil_war
+
+country_event = {
+	id = civil_war.1
+	title = civil_war.1.t
+	desc = civil_war.1.desc
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = civil_war.1.a
+		add_ideas = STR_bro_v_bro
+		start_civil_war = {
+			ideology = fascism
+			size = 0.3
+			capital = 357
+			states = {
+				360 358 359 357
+			}
+			keep_political_party_members = yes
+		}
+	}
+}
